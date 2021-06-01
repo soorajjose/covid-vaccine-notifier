@@ -1,10 +1,5 @@
-const WAITING_TIME = 1000
 
-//const MINIMUM_AGE_LIMIT = 18
-
-// const isEligiblse = ssion.min_age_limit < MINIMUM_AGE_LIMIT
-
-function sleep() {
+function sleep(WAITING_TIME) {
     return new Promise((resolve) => {
         setTimeout(resolve, WAITING_TIME);
     });
