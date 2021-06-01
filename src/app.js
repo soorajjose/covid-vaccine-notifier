@@ -1,10 +1,11 @@
 const cron = require("node-cron");
 const log = require("./log");
 const dotenv = require("dotenv");
+const config = require('../config.json')
 const fetchApi = require("./fetch-api");
 dotenv.config();
 
-const TIME_INTERVEL = process.env.TIME_INTERVEL || 15;
+const TIME_INTERVEL = process.env.TIME_INTERVEL || config.app.time_Intervel;
 
 const app = () => log.info("process started");
 

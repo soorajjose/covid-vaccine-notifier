@@ -1,0 +1,22 @@
+15:27:00.629 INFO  process completed 
+15:27:34.851 INFO  process started 
+15:27:50.911 INFO  Api call trigger in each 25 seconds 
+15:27:51.058 INFO  App connected to cowin server, has 7 records in District :307 
+15:27:51.058 INFO  App connected to cowin server, has available 1 slots 
+15:27:52.950 INFO  @cowinErnakulam - Message sent Successfuly 
+15:27:52.950 INFO  process completed 
+15:28:00.962 INFO  Api call trigger in each 25 seconds 
+15:28:01.074 INFO  App connected to cowin server, has 7 records in District :307 
+15:28:01.074 INFO  App connected to cowin server, has available 1 slots 
+15:28:02.946 INFO  - Message sent Successfuly 
+15:28:02.946 INFO  process completed 
+15:28:25.067 INFO  Api call trigger in each 25 seconds 
+15:28:25.174 INFO  App connected to cowin server, has 7 records in District :307 
+15:28:25.174 INFO  App connected to cowin server, has available 1 slots 
+15:28:26.930 INFO   - Message sent Successfuly 
+15:28:26.930 INFO  process completed 
+15:28:50.168 INFO  Api call trigger in each 25 seconds 
+15:28:50.261 INFO  App connected to cowin server, has 7 records in District :307 
+15:28:50.261 INFO  App connected to cowin server, has available 1 slots 
+15:28:52.049 INFO  - Message sent Successfuly 
+15:28:52.049 INFO  process completed 
