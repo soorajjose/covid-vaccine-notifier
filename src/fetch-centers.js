@@ -20,8 +20,9 @@ const getVaccinationCenters = async () => {
   try {
     const result = await axios.get(`${url}?${query}`, { headers });
     const slots = utils.formatSlotCenters(result.data);
+    log.info(`App connected to cowin server, has ${slots.length} records in District :${DISTRICT_ID}`);
     const availableSlots = slots.filter((slot) => slot.available > 0);
-    log.info(`App connected to cowin server, has ${slots.length} records`);
+    log.info(`App connected to cowin server, has available ${availableSlots.length} slots`);
 
     return availableSlots;
   } catch (error) {
