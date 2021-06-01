@@ -2,7 +2,8 @@
     "app":{
         "host": "https://api.telegram.org/bot",
         "botToken": "<telegram bot api key>",
-        "channelId": "<telegram channel id>"
+        "channelId": "<telegram channel id>",
+        "time_Intervel" : 25
     },
     "cowin": {
         "byDistrictUrl" : "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict",
