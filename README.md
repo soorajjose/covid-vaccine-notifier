@@ -1,9 +1,6 @@
 # COVID-19 Vaccine Availability Telegram Notifier 
 
 
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 This is node project to check the available slots for Covid-19 Vaccination Centers from CoWIN API in India. If slot is available, trigger the notification to telegram channel using Bot. 
 
 ## Prerequisites
