@@ -21,14 +21,19 @@ const sendMessageToBot = async (botMessage) => {
         const payload = {
             chat_id: CHANNEL_ID,
             text: botMessage,
-            parse_mode: 'MarkdownV2'
         }
+        
+         await axios({
+            method: 'post',
+            url: CHANNEL_URL,
+            data: payload,
+            headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+        })
 
-        await axios.post(CHANNEL_URL, payload)
         log.info(`${CHANNEL_ID} - Message sent Successfuly`)
     }
-    catch(error){
-        log.error('Error - Failed to send message',error)
+    catch(errorMessage){
+        log.error('Error - Failed to send message', JSON.stringify(errorMessage))
     }
 }
 
